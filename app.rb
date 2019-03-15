@@ -11,8 +11,9 @@ get "/info" do
 	erb :info
 end
 
-get "/info" do
-"Testing the info page"  # rendering = popping info on page. different type of http verbs: get, post, patch, put ( both for update), delete.
+ # rendering = popping info on page. different type of http verbs: get, post, patch, put ( both for update), delete.
+post "/" do  # / is a home route
+  redirect "/info"
 end
 
 end
