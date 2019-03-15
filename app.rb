@@ -12,7 +12,7 @@ get "/info" do
 end
 
 get "/info" do
-"Testing the info page"  # rendering = popping info on page
+"Testing the info page"  # rendering = popping info on page. different type of http verbs: get, post, patch, put ( both for update), delete.
 end
 
 end
