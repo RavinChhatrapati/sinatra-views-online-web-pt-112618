@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
 
-get '/' do           #embedded ruby 
+get '/' do           #embedded ruby
 	erb :index
 end
 
