@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
 
-get '/' do           #embedded ruby lines 6 - 8 are routes.
+get '/' do           #embedded ruby lines 6 - 8 are routes.. route equauls http verb and path (/) and a block
 	erb :index          #routes tell how they interact with server. rendering an erb file
 end
 
